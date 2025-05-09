@@ -24,5 +24,14 @@
 
   <body>
     <%= yield %>
+    <div style="position: absolute; top: 1rem; right: 1rem;">
+  <%= form_with url: '', method: :get, local: true do %>
+    <%= select_tag :locale,
+      options_for_select([["English", "en"], ["Español", "es"], ["Français", "fr"]], I18n.locale),
+      onchange: "window.location = '/' + this.value + window.location.pathname.replace(/^\\/(en|es|fr)/, '')" %>
+  <% end %>
+</div>
+
+</div>
   </body>
 </html>
