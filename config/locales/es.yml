@@ -1,0 +1,32 @@
+es:
+  posts:
+    index:
+      title: "Publicaciones del Blog"
+      new_post: "Nueva Publicación"
+      show: "Ver"
+      edit: "Editar"
+      delete: "Eliminar"
+      confirm_delete: "¿Estás seguro de que deseas eliminar esta publicación?"
+    new:
+      title: "Nueva Publicación"
+      back: "Volver a publicaciones"
+    edit:
+      title: "Editar Publicación"
+      show: "Ver esta publicación"
+      back: "Volver a publicaciones"
+    show:
+      edit: "Editar esta publicación"
+      back: "Volver a publicaciones"
+      destroy: "Eliminar esta publicación"
+      confirm_destroy: "¿Estás seguro de que deseas eliminar esta publicación?"
+  activerecord:
+    attributes:
+      post:
+        title: "Título"
+        body: "Contenido"
+  forms:
+    submit: "Guardar Publicación"
+    errors:
+      header:
+        one: "1 error impidió guardar esta publicación:"
+        other: "%{count} errores impidieron guardar esta publicación:"

@@ -1,0 +1,33 @@
+fr:
+  posts:
+    index:
+      title: "Articles de Blog"
+      new_post: "Nouvel Article"
+      show: "Voir"
+      edit: "Modifier"
+      delete: "Supprimer"
+      confirm_delete: "Êtes-vous sûr de vouloir supprimer cet article ?"
+    new:
+      title: "Nouvel Article"
+      back: "Retour aux articles"
+    edit:
+      title: "Modifier l'article"
+      show: "Voir cet article"
+      back: "Retour aux articles"
+    show:
+      edit: "Modifier cet article"
+      back: "Retour aux articles"
+      destroy: "Supprimer cet article"
+      confirm_destroy: "Êtes-vous sûr de vouloir supprimer cet article ?"
+  activerecord:
+    attributes:
+      post:
+        title: "Titre"
+        body: "Contenu"
+  forms:
+    submit: "Enregistrer l'article"
+    errors:
+      header:
+        one: "1 erreur a empêché l'enregistrement de cet article :"
+        other: "%{count} erreurs ont empêché l'enregistrement de cet article :"
+

@@ -28,4 +28,36 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  posts:
+    index:
+      title: "Blog Posts"
+      new_post: "New Post"
+      show: "Show"
+      edit: "Edit"
+      delete: "Delete"
+      confirm_delete: "Are you sure you want to delete this post?"
+    new:
+      title: "New Post"
+      back: "Back to posts"
+    edit:
+      title: "Editing Post"
+      show: "Show this post"
+      back: "Back to posts"
+    show:
+      edit: "Edit this post"
+      back: "Back to posts"
+      destroy: "Destroy this post"
+      confirm_destroy: "Are you sure you want to delete this post?"
+  activerecord:
+    attributes:
+      post:
+        title: "Title"
+        body: "Body"
+  forms:
+    submit: "Save Post"
+    errors:
+      header:
+        one: "1 error prohibited this post from being saved:"
+        other: "%{count} errors prohibited this post from being saved:"
+
+
